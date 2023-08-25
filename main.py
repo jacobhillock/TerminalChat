@@ -2,7 +2,7 @@ from src.size import get_size
 from src.args import get_args
 from src.config import Config
 from src.format_message import format_message
-from src.generate_box import message
+from src.message_types.generate_box import message
 from src.print_message import print_message
 
 config = Config(1, 2, 1)
